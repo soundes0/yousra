@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4c2c2; /* Pastel Pink */
+  margin: 0;
+  padding: 0;
+  color: #333333; /* Deep Gray */
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f4c2c2; /* Pastel Pink */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #d4af37; /* Gold */
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #333333; /* Deep Gray */
+}
+
+/* Countdown Timer Styling */
+.countdown {
+  font-weight: bold;
+  color: #d4af37; /* Gold */
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  margin-top: 20px;
+}
+
+/* Wish Section */
+.wish-section {
+  background: linear-gradient(135deg, #f4c2c2, #d4af37); /* Gradient */
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  color: #333333;
+}
+
+/* Other styles as before */
+
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  color: #fefefe; /* Soft White */
+  font-size: 2.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #333333;
+  font-style: italic;
+}
+
+.wish-form {
+  max-width: 600px;
+}
+
+.wish-input {
+  border-radius: 20px;
+  border: 2px solid #fefefe; /* Soft White */
+  padding: 10px;
+  font-size: 1rem;
+  background: #fefefe;
+  color: #333333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wish-input::placeholder {
+  color: #d4af37; /* Gold */
+}
+
+.btn-wish {
+  background-color: #d4af37;
+  color: #fefefe;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-wish:hover {
+  background-color: #c89b2f; /* Darker gold */
+  transform: translateY(-3px);
+}
+
+/* Wish Board */
+.wish-board {
+  background: #fefefe; /* Soft White */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
+}
+
+.wish-card {
+  background: #f4c2c2; /* Pastel Pink */
+  border-left: 5px solid #d4af37; /* Gold */
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease;
+}
+
+.wish-card h4 {
+  margin: 0;
+  color: #333333; /* Deep Gray */
+}
+
+.wish-card p {
+  margin: 5px 0 0;
+  font-style: italic;
+  color: #555555; /* Softer Gray */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Footer */
+footer {
+  background-color: #d4af37; /* Gold */
+  color: #fefefe; /* Soft White */
+  font-size: 0.9rem;
+  margin-top: 20px;
+
+  
+}
