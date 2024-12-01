@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yousra & Aymen Wedding</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-color: #f4c2c2;">
+    <div class="hero-content">
+      <h1>Yousra & Aymen</h1>
+    </div>
+  </section>
+
+  <!-- Invitation Section -->
+  <section class="invitation">
+    <div class="container">
+      <h2>Welcome to Our Wedding!</h2>
+      <p class="special-message">We are so excited to share this special moment with you! </p>
+      <p><strong>Wedding Date:</strong> December 18, 2024</p>
+      <p><strong>Location:</strong><a href="https://maps.app.goo.gl/SGt6o3qPU2DJ3Qao9" >Zouaoui</a></p>
+    </div>
+  </section>
+
+  <!-- Leave Your Wish Section -->
+  <section class="wish-section my-5">
+    <div class="container py-5">
+      <h2 class="section-title text-center mb-4">Leave Your Wishes</h2>
+      <p class="section-subtitle text-center mb-4">
+        Your heartfelt messages will make Yousra's day even brighter! 
+        <span id="wish-counter" class="wish-counter">0 Wishes</span> received so far.
+      </p>
+
+      <!-- Wish Form -->
+      <form id="wish-form" class="wish-form mx-auto text-center">
+        <div class="mb-4">
+          <input type="text" id="name" class="form-control wish-input" placeholder="Your Name" required>
+        </div>
+        <div class="mb-4">
+          <textarea id="message" class="form-control wish-input" rows="4" placeholder="Write your heartfelt message"></textarea>
+        </div>
+        <button type="button" id="submit-btn" class="btn btn-wish">Send Your Wish</button>
+      </form>
+
+      <!-- Wish Cards Section -->
+      <div id="wish-board" class="wish-board mt-5">
+        <p class="text-center" id="placeholder-message">No wishes yet. Be the first to share your thoughts!</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
